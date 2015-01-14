@@ -4,18 +4,25 @@
 </head>
 <body>
 
-<table cellspacing="0" cellpadding="3" border="1" width="400" align="center">
+   <div class="wrapper">
 
-<tr>
-<td>Vittorio Togliatti</td>
-<td><img src="vittorio.jpg" width="200" height="200" border="0" alt="Vittorio Togliatti"></a></td>
-</tr>
+	<table cellspacing="0" cellpadding="3" border="1" width="800" align="center">
 
-<tr>
-<td colspan="2" align="center"><font size="5"><b><i>Experiencias de trabajo</i></b></font></td>
-</tr>
+		<tr>
+		<td>Vittorio Togliatti</td>
+		<td><img src="vittorio.jpg" width="200" height="200" border="0" alt="Vittorio Togliatti"></a></td>
+		</tr>
 
-</table>
+		<tr>
+		<td colspan="2" align="center"><font size="5"><b><i>Experiencias de trabajo</i></b></font></td>
+		</tr>
+
+		<tr>
+		<td colspan="2" align="center"><font size="5"><b><i>Estudios</i></b></font></td>
+		</tr>
+
+	</table>
+   </div>
 
 </body>
 </html>
