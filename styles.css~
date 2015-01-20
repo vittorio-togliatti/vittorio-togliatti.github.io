@@ -17,6 +17,7 @@ color: #000;
 font-family: Helvetica, Verdana;
 font-size: 1em;
 }
+
 #wrapper {
 background-color: #fff;
 display: block;
@@ -24,4 +25,9 @@ width: 99%;/*importante*/
 margin: 2em auto;
 min-width:300px;
 }
+
+.tdcolors{
+background-color: #fff;
+}
+
 

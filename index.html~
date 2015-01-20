@@ -1,27 +1,59 @@
 <html>
 <head>
-<title></title>
+<title>CV Vittorio</title>
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css"/>
+
+<script>
+	function test_function(){
+		//alert("I am an alert box!");
+	}
+</script>
+
 </head>
-<body>
+	<body>
+	<div data-role="page" id="pageone">
+		<div data-role="header">
+  		<h1>Welcome To My Homepage</h1>
+  		</div><!--/header-->
 
-<table cellspacing="0" cellpadding="3" border="1" width="400" align="center">
+	<div data-role="main" class="ui-content">
+		<table cellspacing="0" cellpadding="3" border="1" width="400" align="center">
 
-<tr>
-<td colspan="2" align="center"><font size="5"><b><i>CVS</i></b></font></td>
-</tr>
+		<tr>
+			<td colspan="2" align="center"><font size="5"><b><i>CVS</i></b></font></td>
+		</tr>
 
-<tr>
-<td>cv Vittorio</td>
-<td><a href="cv_vittorio.html"><img src="vittorio.jpg" width="200" height="200" border="0" alt="Vittorio"></a></td>
-</tr>
+		<tr>
+			<td>cv Vittorio</td>
 
-<tr>
-<td>cv Juan</td>
-<td><a href="cv_vittorio.html"><img src="vittorio.jpg" width="200" height="200" border="0" alt="Vittorio"></a></td>
-</tr>
+			<td><a href="cv_vittorio.html" data-ajax="false">
+				<img src="vittorio.jpg" onclick="test_function()" width="200" height="200" border="0" alt="Vittorio"></a>
+			</td>
+		</tr>
 
-</table>
+		<tr>
+			<td>cv Juan</td>
+			<td class="tdcolors"><a href="cv_vittorio.html">
+				<img src="vittorio.jpg" width="200" height="200" border="0" alt="Vittorio"></a>
+			</td>
+		</tr>
 
+		</table>
+	</div> <!--/main-->
+
+	<div data-role="footer">
+  		<h1>Footer Text</h1>
+  	</div>
+
+
+</div> <!--/page-->
 </body>
 </html>
