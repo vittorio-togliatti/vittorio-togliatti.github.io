@@ -32,17 +32,24 @@
 		</tr>
 
 		<tr>
-			<td>cv Vittorio</td>
+			<td>cv Externo</td>
 
 			<td><a href="cv_vittorio.html" data-ajax="false">
-				<img src="vittorio.jpg" onclick="test_function()" width="200" height="200" border="0" alt="Vittorio"></a>
+				<img src="vittorio.jpg" onclick="test_function()" width="100" height="100" border="0" alt="Vittorio"></a>
 			</td>
 		</tr>
 
 		<tr>
-			<td>cv Juan</td>
+			<td>cv Interno</td>
 			<td class="tdcolors"><a href="cv_vittorio.html">
-				<img src="vittorio.jpg" width="200" height="200" border="0" alt="Vittorio"></a>
+				<img src="vittorio.jpg" width="100" height="100" border="0" alt="Vittorio"></a>
+			</td>
+		</tr>
+
+		<tr>
+			<td>cv one page</td>
+			<td class="tdcolors"><a href="#pagetwo">
+				<img src="vittorio.jpg" width="100" height="100" border="0" alt="Vittorio"></a>
 			</td>
 		</tr>
 
@@ -54,6 +61,40 @@
   	</div>
 
 
-</div> <!--/page-->
+</div> <!--/pageone-->
+
+
+<div data-role="page" id="pagetwo">
+	<div data-role="header">
+  		<h1>Welcome To My Homepage</h1>
+  	</div><!--/header-->
+	
+	<div class="wrapper">
+
+	<table cellspacing="0" cellpadding="3" border="1" width="800" align="center">
+
+		<tr>
+		<td>Vittorio Togliatti</td>
+		<td><img src="vittorio.jpg" width="200" height="200" border="0" alt="Vittorio Togliatti"></a></td>
+		</tr>
+
+		<tr>
+		<td colspan="2" align="center"><font size="5"><b><i>Experiencias de trabajo</i></b></font></td>
+		</tr>
+
+		<tr>
+		<td colspan="2" align="center"><font size="5"><b><i>Estudios</i></b></font></td>
+		</tr>
+
+	</table>
+   </div>
+
+
+
+	<div data-role="footer">
+  		<h1>Footer Text</h1>
+  	</div>
+
+</div> <!--/pagetwo-->
 </body>
 </html>
